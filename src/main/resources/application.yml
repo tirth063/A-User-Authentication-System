@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth
+    password: root
+    username: postgres
+
+server:
+  port: 9000
+
+app:
+  jwtExpirationInMs: 604800000
